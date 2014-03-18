@@ -1,0 +1,14 @@
+﻿@model Domain.Home.HomeResult
+@{
+    ViewBag.Title = "Result Page";
+}
+
+<br />
+<div class="row">
+    <div class="jumbotron text-center">
+        <h1 >The answer is:</h1>
+        <h2 >@Model.Result</h2>
+        <br />
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Do It Again</a>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Domain.Customers.Customer>
+
+<br />
+<div class="row">
+    <div class="col-md-6">
+        <ul>
+            @foreach (var cust in Model)
+            {
+                <li>@(String.Format("{0} {1}", cust.FirstName, cust.LastName))</li>
+            }
+        </ul>
+    </div>
+</div>
