@@ -67,6 +67,10 @@
     <Compile Include="Migrations\201403180059528_AddingCustomers.Designer.cs">
       <DependentUpon>201403180059528_AddingCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201403200145163_CustomerConfig.cs" />
+    <Compile Include="Migrations\201403200145163_CustomerConfig.Designer.cs">
+      <DependentUpon>201403200145163_CustomerConfig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\EF_Config\AddressEntityTypeConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\EF_Config\CustomerEntityTypeConfiguration.cs" />
@@ -81,6 +85,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201403180059528_AddingCustomers.resx">
       <DependentUpon>201403180059528_AddingCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201403200145163_CustomerConfig.resx">
+      <DependentUpon>201403200145163_CustomerConfig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
